@@ -1,0 +1,9 @@
+ruutuvlc (1.1.0.0) xenial; urgency=medium
+
+  * VLC path (non-defaults) will be remembered for next startup
+  * Show only .exe files on Windows, when selecting VLC executable
+  * Automatically focus to URL box
+  * Moved from MIT License to ISC License
+  * Other changes and bug fixes
+
+ -- Elias Ojala <elias@kotilinux.org>  Wed, 14 Jun 2017 14:06:36 +0300

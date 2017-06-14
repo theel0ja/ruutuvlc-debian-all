@@ -1,0 +1,11 @@
+*.deb
+*.build
+*.changes
+*.dsc
+*.debian.tar.xz
+
+ruutuvlc/debian/ruutuvlc
+ruutuvlc/debian/debhelper-*
+ruutuvlc/debian/files
+ruutuvlc/debian/*.log
+ruutuvlc/debian/*.substvars

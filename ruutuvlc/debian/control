@@ -1,0 +1,14 @@
+Source: ruutuvlc
+Section: unknown
+Priority: optional
+Maintainer: Elias Ojala <elias@kotilinux.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/theel0ja/Ruutu
+Vcs-Git: git://github.com/theel0ja/Ruutu.git
+Vcs-Browser: https://github.com/theel0ja/Ruutu.git
+
+Package: ruutuvlc
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, mono-runtime, libmono-system-windows-forms4.0-cil, vlc
+Description: Small piece of software that opens Ruutu.fi videos in VLC.
